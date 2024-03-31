@@ -1,0 +1,1 @@
+cpu_choose_card(); // 让CPU做出选择并移动卡牌

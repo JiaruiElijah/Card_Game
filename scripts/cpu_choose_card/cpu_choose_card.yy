@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"cpu_choose_card",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cpu_choose_card",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
