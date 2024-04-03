@@ -1,5 +1,5 @@
 function judge(){
-		// 假设player_choice和cpu_choice分别存储了玩家和CPU的选择（0剪刀、1布、2石头）
+		// （0剪刀、1布、2石头）
 	var result = (3 + global.player_choice - global.cpu_choice) % 3;
 
 	switch (result) {

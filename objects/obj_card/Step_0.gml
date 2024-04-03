@@ -7,7 +7,7 @@ if (state == "moving_to_player" || state == "moving_to_cpu") {
     x += (target_x - x) * card_speed;
     y += (target_y - y) * card_speed;
     
-    // 检查是否接近目标位置，如果是，则停止移动
+    // 检查是否接近目标位置 停止移动
     if (point_distance(x, y, target_x, target_y) < 1) {
 		x = target_x; // 精确对齐到目标位置
         y = target_y;
@@ -17,7 +17,7 @@ if (state == "moving_to_player" || state == "moving_to_cpu") {
 }
 
 if (state == "moving_to_battle") {
-    // 假设move_speed是控制移动速度的变量
+
     var move_speed = 0.1;
     x += (target_x - x) * move_speed;
     y += (target_y - y) * move_speed;
@@ -31,7 +31,7 @@ if (state == "moving_to_battle") {
 }
 
 if (state == "moving_to_discard") {
-    // 假设move_speed是控制移动速度的变量
+
     var move_speed = 0.1;
     x += (target_x - x) * move_speed;
     y += (target_y - y) * move_speed;
@@ -44,7 +44,7 @@ if (state == "moving_to_discard") {
     }
 }
 if (state == "moving_to_deck") {
-    // 假设move_speed是控制移动速度的变量
+
     var move_speed = 0.1;
     x += (target_x - x) * move_speed;
     y += (target_y - y) * move_speed;

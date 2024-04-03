@@ -1,6 +1,6 @@
 switch (global.game_state) {
     case "INIT":
-        // 初始化游戏逻辑
+
 		if(global.isShuffle){
 			shuffle_deck()
 		}

@@ -15,8 +15,7 @@ function draw2_cards() {
     global.cpu_hand = ds_list_create();
 	
 	global.player_has_chosen = false;
-	// 假设所有牌堆中的卡牌在创建时已经被加入到了一个全局的ds_list中，名为global.deck_instances
-// 并且这个列表的顺序与卡牌洗牌后的顺序一致
+
 
 
 	for (var i = 0; i < cards_to_draw; i++) {

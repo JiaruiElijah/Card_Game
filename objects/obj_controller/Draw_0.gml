@@ -1,4 +1,4 @@
-// 在某个适合显示分数的对象的Draw事件中
+
 
 draw_set_font(Font1);
 

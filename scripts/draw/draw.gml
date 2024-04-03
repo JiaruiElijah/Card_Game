@@ -1,12 +1,11 @@
-// 抽取卡牌给玩家和CPU的示例函数
 function draw_cards() {
-	var deck_x = 96; // 大牌堆的X坐标
-    var deck_y = 448; // 牌堆的Y坐标
+	var deck_x = 96; 
+    var deck_y = 448; 
     var spacing = 175; // 卡牌之间的间隔
-	var player_target_x = 224; // 玩家卡牌的目标X坐标
-	var player_target_y = 768; // 玩家卡牌的目标Y坐标
-	var cpu_target_x = 224; // CPU卡牌的目标X坐标
-	var cpu_target_y = 128; // CPU卡牌的目标Y坐标
+	var player_target_x = 224; 
+	var player_target_y = 768; 
+	var cpu_target_x = 224; 
+	var cpu_target_y = 128; 
 	
 	
 	var cards_to_draw = 3; // 每次给玩家和CPU发三张牌

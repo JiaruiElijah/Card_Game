@@ -1,5 +1,4 @@
 function draw3(){
-// 在Step事件中
 	var player_target_x = 224; 
 	var player_target_y = 768; 
 	var cpu_target_x = 224; 
@@ -10,9 +9,9 @@ function draw3(){
 
 	if (global.deal_counter <= 0) {
 	    if (global.dealing_to == "player" && global.cards_dealt_to_player < 3) {
-	        // 给玩家发牌的逻辑
+	        // 给玩家发牌
 	        var card = ds_list_find_value(global.deck_instances, 0);
-	        // 发牌动画逻辑（需要自行实现）
+	        // 发牌动画逻辑
 		    card.isDeck = false;
 		    card.target_x = player_target_x + global.spacing;
 		    card.target_y = player_target_y;
@@ -41,7 +40,7 @@ function draw3(){
 	        // 给CPU发牌的逻辑
 			
 	        var card = ds_list_find_value(global.deck_instances, 0);
-	        // 发牌动画逻辑（需要自行实现）
+	       
 	        card.isDeck = false;
 		    card.target_x = cpu_target_x + global.spacing;
 		    card.target_y = cpu_target_y;
